@@ -5,13 +5,13 @@
 Summary:	Library to benchmark code snippets
 Summary(pl.UTF-8):	Biblioteka do testowania wydajności fragmentów kodu
 Name:		google-benchmark
-Version:	1.5.1
+Version:	1.6.1
 Release:	1
 License:	Apache v2.0
 Group:		Libraries
 #Source0Download: https://github.com/google/benchmark/releases
 Source0:	https://github.com/google/benchmark/archive/v%{version}/benchmark-%{version}.tar.gz
-# Source0-md5:	91d2d9a824cab82c67a80ccce5b93218
+# Source0-md5:	8c33c51f9b7154e6c290df3750081c87
 #Patch0:	%{name}-what.patch
 URL:		https://github.com/google/benchmark
 BuildRequires:	cmake >= 3.5.1
@@ -95,9 +95,9 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS CONTRIBUTORS README.md docs/{AssemblyTests.md,tools.md}
 %attr(755,root,root) %{_libdir}/libbenchmark.so.*.*.*
-%attr(755,root,root) %ghost %{_libdir}/libbenchmark.so.0
+%attr(755,root,root) %ghost %{_libdir}/libbenchmark.so.1
 %attr(755,root,root) %{_libdir}/libbenchmark_main.so.*.*.*
-%attr(755,root,root) %ghost %{_libdir}/libbenchmark_main.so.0
+%attr(755,root,root) %ghost %{_libdir}/libbenchmark_main.so.1
 
 %files devel
 %defattr(644,root,root,755)
