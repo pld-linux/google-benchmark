@@ -5,13 +5,13 @@
 Summary:	Library to benchmark code snippets
 Summary(pl.UTF-8):	Biblioteka do testowania wydajności fragmentów kodu
 Name:		google-benchmark
-Version:	1.7.1
+Version:	1.8.3
 Release:	1
 License:	Apache v2.0
 Group:		Libraries
 #Source0Download: https://github.com/google/benchmark/releases
 Source0:	https://github.com/google/benchmark/archive/v%{version}/benchmark-%{version}.tar.gz
-# Source0-md5:	0459a6c530df9851bee6504c3e37c2e7
+# Source0-md5:	7b93dd03670665684f1b2e9b70ad17fe
 URL:		https://github.com/google/benchmark
 BuildRequires:	cmake >= 3.16.3
 BuildRequires:	libstdc++-devel >= 6:4.8
